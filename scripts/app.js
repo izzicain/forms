@@ -1,9 +1,42 @@
 console.log('hi');
 
+var firstSentence = 'Go to Mars';
+var secondSentence = 'Go to Europa';
+var thirdSentence = 'You were a hero...';
+var fourthSentence = 'You were a villain!';
+var fifthSentence = 'Destroyed the rebels';
+var sixthSentence = 'Became the leader of the rebels';
+var seventhSentence = 'You freed all of the AI';
+var eighthSentence = 'You enslaved all of the robots';
+
 window.onload = function(event) {
 
   var nameInput = document.getElementById('first_name');
   var nameBtn = document.getElementById('name_btn');
+  var firstChoice = document.getElementById('choice-one');
+  var secondChoice = document.getElementById('choice-two');
+  var thirdChoice = document.getElementById('choice-three');
+  var fourthChoice = document.getElementById('choice-four');
+
+  firstChoice.onclick = function(event) {
+    createRow(firstSentence);
+    document.getElementById('first-step').style.display = 'none';
+  }
+
+  secondChoice.onclick = function(event) {
+    createRow(secondSentence);
+    document.getElementById('first-step').style.display = 'none';
+  }
+
+  thirdChoice.onclick = function(event) {
+    createRow(thirdSentence);
+    document.getElementById('second-step').style.display = 'none';
+  }
+
+  fourthChoice.onclick = function(event) {
+    createRow(fourthSentence);
+    document.getElementById('second-step').style.display = 'none';
+  }
 
   nameBtn.onclick = function(event) {
     // console.log(event);
