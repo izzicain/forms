@@ -1,0 +1,24 @@
+
+Act 1
+
+Do you want to...
+- Go to Mars
+- Go to Europa
+
+Act 2
+
+When you returned...
+- You were a hero
+- You were a villain
+
+Act 3
+
+With the world treating you as such, you...
+- Destroyed the rebels
+- Became the leader of the rebels
+
+Act 4
+
+With your final act as god emperor...
+- You freed all the AI
+- You enslaved all robots
