@@ -1,0 +1,35 @@
+body {
+  text-align: center;
+  background-image: url('../landscape-mountains-nature-lake.jpg');
+  /*  Hey Katie -- I used a background image but when I click through the buttons, the page "shrinks" and so does the background image, leaving a white gap at the bottom when all steps are completed. How do I fix that?  */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+}
+
+#first-step {
+  padding: 20px 10px 20px 10px;
+  border: 2px solid #E2E1E1;
+}
+
+#second-step {
+  margin-top: 10px;
+  padding: 20px 10px 20px 10px;
+  border: 2px solid #E2E1E1;
+}
+
+#third-step {
+  margin-top: 10px;
+  padding: 20px 10px 20px 10px;
+  border: 2px solid #E2E1E1;
+}
+
+#fourth-step {
+  margin-top: 10px;
+  padding: 20px 10px 20px 10px;
+  border: 2px solid #E2E1E1;
+}
+
+
+/* Hey Katie -- how do I change the background color of the buttons? I noticed in the HTML there was "waves-effect waves-light btn" and wasn't sure if that was it or not. */
